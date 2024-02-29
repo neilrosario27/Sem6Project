@@ -15,7 +15,7 @@ const PreMain = () => {
           {/* Links and buttons appear after successful upload */}
           {/* <Link to="/viva"><p>get viva</p></Link>
           <Link to="/summary"><p>get summary</p></Link> */}
-          <Link to="/viva">
+          {/* <Link to="/viva">
   <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a>
       <img className="rounded-t-lg w-full h-48 object-cover" src={vivaImg} alt="Audio" />
@@ -71,7 +71,7 @@ const PreMain = () => {
       </a>
     </div>
   </div>
-</Link>
+</Link> */}
 <Link to="/text">
   <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a>

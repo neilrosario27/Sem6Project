@@ -17,24 +17,92 @@ import UrlPage from "./pages/UrlPage";
 const App = () => {
   return (
     <div className="w-screen min-h-screen bg-gradient-to-r from-rose-100 to-teal-100">
-    <BrowserRouter>
-    <Navbar />
-      <Routes>
-          <Route path="/main" element={<AuthenticatedWrapper>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route
+            path="/main"
+            element={
+              <AuthenticatedWrapper>
                 <MainPage />
-              </AuthenticatedWrapper>} />
+              </AuthenticatedWrapper>
+            }
+          />
           <Route path="/" element={<Home />} />
-          <Route path="/text" element={<AuthenticatedWrapper><TextPage /></AuthenticatedWrapper>} />
-          <Route path="/audio" element={<AuthenticatedWrapper><AudioPage /></AuthenticatedWrapper>} />
-          <Route path="/viva" element={<AuthenticatedWrapper><VivaPage /></AuthenticatedWrapper> } />
-          <Route path="/summary" element={<AuthenticatedWrapper><SummaryPage/></AuthenticatedWrapper> } />
-          <Route path="/premain" element={<AuthenticatedWrapper><PreMain /></AuthenticatedWrapper> } />
-          <Route path="/audio2" element={<AuthenticatedWrapper><Audiopage2 /></AuthenticatedWrapper> } />
-          <Route path="/home2" element={<AuthenticatedWrapper><Home2 /></AuthenticatedWrapper> } />
-          <Route path="/mcq" element={<AuthenticatedWrapper><McqPage /></AuthenticatedWrapper> } />
-          <Route path="/url" element={<AuthenticatedWrapper><UrlPage/> </AuthenticatedWrapper> } />
-      </Routes>
-    </BrowserRouter>
+          <Route
+            path="/text"
+            element={
+              <AuthenticatedWrapper>
+                <TextPage />
+              </AuthenticatedWrapper>
+            }
+          />
+          <Route
+            path="/audio"
+            element={
+              <AuthenticatedWrapper>
+                <AudioPage />
+              </AuthenticatedWrapper>
+            }
+          />
+          <Route
+            path="/viva"
+            element={
+              <AuthenticatedWrapper>
+                <VivaPage />
+              </AuthenticatedWrapper>
+            }
+          />
+          <Route
+            path="/summary"
+            element={
+              <AuthenticatedWrapper>
+                <SummaryPage />
+              </AuthenticatedWrapper>
+            }
+          />
+          <Route
+            path="/premain"
+            element={
+              <AuthenticatedWrapper>
+                <PreMain />
+              </AuthenticatedWrapper>
+            }
+          />
+          <Route
+            path="/audio2"
+            element={
+              <AuthenticatedWrapper>
+                <Audiopage2 />
+              </AuthenticatedWrapper>
+            }
+          />
+          <Route
+            path="/home2"
+            element={
+              <AuthenticatedWrapper>
+                <Home2 />
+              </AuthenticatedWrapper>
+            }
+          />
+          <Route
+            path="/mcq"
+            element={
+              <AuthenticatedWrapper>
+                <McqPage />
+              </AuthenticatedWrapper>
+            }
+          />
+          <Route
+            path="/url"
+            element={
+              <AuthenticatedWrapper>
+                <UrlPage />{" "}
+              </AuthenticatedWrapper>
+            }
+          />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 };

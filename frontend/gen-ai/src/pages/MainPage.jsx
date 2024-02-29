@@ -50,7 +50,7 @@ const MainPage = () => {
         <div className="flex justify-center items-center gap-10">
           {/* Links and buttons appear after successful upload */}
           <Link to="/audio2">
-  <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  {/* <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a>
       <img className="rounded-t-lg w-full h-48 object-cover" src={audioImg} alt="Audio" />
     </a>
@@ -66,7 +66,7 @@ const MainPage = () => {
         </svg>
       </a>
     </div>
-  </div>
+  </div> */}
 </Link>
 <Link to="/text">
   <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
