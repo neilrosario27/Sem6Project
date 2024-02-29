@@ -1,6 +1,6 @@
 ﻿# MiniProject-Sem6 CHATBOOK
 ----------------
--- GOT TO backend/fastapibackend
+-- GO TO backend/fastapibackend
 -- make and activate virtual env (python -m venv env)
 -- install all requirements (pip install -r requirements.txt)
 -- run this command 
